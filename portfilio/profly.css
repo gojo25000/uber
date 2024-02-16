@@ -1,0 +1,230 @@
+/* Add this to your profly.css file */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Protest Guerrilla', sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+}
+
+#logo {
+    width: 130px;
+}
+
+.things {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.links:hover {
+    color: brown;
+    font-size: 18px;
+}
+
+.title {
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.title_h1 {
+    font-size: 53px;
+    margin-bottom: 20px;
+}
+
+#lastname {
+    color: orange;
+}
+
+#download {
+    text-decoration: none;
+    background-color: black;
+    color: azure;
+    padding: 10px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.images {
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    right: 1px;
+    bottom: 0px;
+    overflow: hidden; /* Added to prevent hover effects from causing layout issues */
+}
+
+.imageGroup {
+    height: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 2s; /* timee taken to change */
+}
+
+.images:hover #girl {
+    left: 40%;
+}
+
+.images:hover #shape {
+    bottom: 40px;
+}
+#about{
+    margin: 20% 8% 0% 8%;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    font-size:32px;
+}
+.heading span{
+    color: green;
+    font-size: 20px;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+}
+.about-img img{
+    width: 80%;
+    border-radius: 10px;
+
+}
+.about-para p{
+        text-align: justify; /* to property aling the content*/
+        font-size: 18px;
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    margin-bottom: 1.5rem;
+}
+.info-box span{
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+#skill{
+    margin: 8% 8% 5% 8%;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    margin-top: 2.5rem;
+}
+.skill.img img{
+    width: 90%;
+    padding-left: 4rem;
+    object-position: center; /* to place the content in exact center*/
+}
+.progress-container{
+    margin-top: 10px;
+}
+.progress-bar{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 1rem 0px;
+    justify-content: space-between; /* to create the space between the child tag*/
+    position: relative;
+}
+.progress-bar span{
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.bar{
+    width: 100%;
+    height: 0.5rem;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    width: 95%;
+    background-color:orange;
+}
+.css-bar{
+    width: 88%;
+    background-color: orange;
+}
+.js-bar{
+    width: 89%;
+    background-color: orange;
+}
+.react-bar{
+    width: 85%;
+    background-color: orange;
+}
+.icon-set{
+    display: flex;
+    justify-content: center; /* to place vertically center*/
+    align-items: center; /* to place horizontally center*/
+    margin-top: 2rem;
+}
+.icon , .up-arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 15px; /*upnarrow vere koduthal adyam muthal ath type cheyyanam ath kondu oru , ittu up arro koodi add aaki enne ullu ctually ith bar anu*/
+}
+.icon:hover{
+    background-image: linear-gradient( to bottom right, yellow ,rgb(255,64,0));
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(15deg);
+    }
+}
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.up-arrow{
+    background-image: linear-gradient( to bottom right, yellow ,rgb(255,64,0));
+    float : right;
+    margin: 20px 10px 50px 0px;
+}
+html{
+    scroll-behavior: smooth;
+}

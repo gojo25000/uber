@@ -1,0 +1,14 @@
+*{
+    /* to rfemove margin created by the user*/
+    margin: 0px;
+}
+header{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://smartcdn.gprod.postmedia.digital/driving/wp-content/uploads/2017/10/p9231575x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center();
+    background-attachment: fixed;
+    opacity: 0.9;
+}

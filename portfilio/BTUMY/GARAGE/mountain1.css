@@ -1,0 +1,136 @@
+*{
+  background-color: rgb(30, 30, 28);  
+}
+
+.top{
+    display: flex;
+margin-left: 450px;
+margin-top: 150px;
+}
+#a{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(237, 7, 149);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#b{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(247, 7, 7);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#c{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(253, 137, 6);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+
+.mid{
+    display: flex;
+margin-left: 350px;
+margin-top: 10px;
+}
+#d{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(226, 169, 55);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#e{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(201, 235, 7);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#f{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(93, 174, 23);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#g{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(11, 84, 7);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#h{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(7, 55, 246);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+.bot{
+    display: flex;
+margin-left: 250px;
+margin-top: 10px;
+}
+#i{
+    height: 90px;
+    width: 90px;
+    background-color: rgba(99, 10, 87, 0.744);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#j{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(202, 111, 92);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+
+#k{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(78, 26, 122);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#l{
+    height: 90px;
+    width: 90px;
+    background-color: rgba(3, 172, 244, 0.406);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#m{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(231, 237, 241);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#n{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(5, 253, 22);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+#o{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(138, 27, 122);
+    margin-right: 7px;
+    border-radius: 20px;
+}
+
+
+
+#lick{
+    position: absolute;
+    top:40px ;
+    left:565px;
+    
+}
+

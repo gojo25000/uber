@@ -1,0 +1,108 @@
+.heading {
+    text-align: center;
+    color: blueviolet;
+    margin: 50px;
+  }
+  .topmain {
+    margin: 50px;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+  .nav li {
+    list-style: none;
+  }
+  .nav a {
+    text-decoration: none;
+    padding: 100px;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+  }
+  .about {
+  }
+  .about_heading {
+    font-size: 25px;
+    color: blue;
+  }
+  .mission {
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .placement {
+  }
+  .placement_heading {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: blue;
+  }
+  .midmain {
+    margin: 50px;
+  }
+  .courses {
+    font-size: 20px;
+  }
+  .course_heading {
+    font-size: 25px;
+    color: blue;
+  }
+  .course_list ul {
+    margin: 20px;
+  }
+  .course_list li {
+    font-size: 15px;
+  }
+  .visit {
+    font-size: 16px;
+  }
+  .imagepart {
+    display: flex;
+    justify-content: center;
+  }
+  .employeepart {
+    margin: 50px;
+  }
+  .employee_heading {
+    font-size: 25px;
+    color: blue;
+  }
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 120px;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  th,
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .contact_part {
+    margin: 50px;
+  }
+  .contact_heading {
+    font-size: 25px;
+    color: blue;
+  }
+  .form {
+    margin: 20px;
+  }
+  input {
+    margin: 10px;
+  }
+  .submit {
+    margin-top: 10px;
+    background-color: rgb(106, 106, 228);
+    border-radius: 5px;
+  }
+  .fotter {
+    display: flex;
+    justify-content: center;
+  }

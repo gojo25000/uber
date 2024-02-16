@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Protest Guerrilla', sans-serif;
+font-family: 'Single Day', cursive;background-color: white;
+}
+#container{
+    width: 100%;
+    height: 100vh; /* 1 vh=19.px*/
+    position: relative; /* position relates to its normal position*/
+    background-color: white;
+
+}
+.navbar{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    align-items: center;
+}
+
+
+.logo{
+    width: 130px;
+}
+.tech{
+    display: inline-block; /* to place each tag side by side*/
+    list-style: none; /* can remove dots*/
+    margin: 10px 20px;
+
+}
+.link{
+    text-decoration: none; /* remove underline of tags*/
+    color: black;
+    font-weight: bolder;
+}
+.link:hover{
+    color: crimson;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 10%;
+}
+
+.titleone{
+    font-size:20px;
+    margin-bottom: 20px;
+
+}
+#lastname{
+    color: chocolate;
+}
+.rick{
+    padding:5px ;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    color: aliceblue;
+    display: inline-block;
+
+}
+
+.images{
+    width: 45%;
+    height: 85%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+
+}
+.imagegroup{
+height: 100%;
+position: absolute;
+bottom: 0px;
+left: 100px;
+}

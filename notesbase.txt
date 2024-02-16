@@ -1,0 +1,176 @@
+<HTML - Hyper Text Markup Language
+----------------------------------
+Markup Language
+---------------
+- In order to create design webpages
+-Its a Tag based Language <>
+-EG : html , xml
+---------------------------------
+types of tags 
+opening -> <h1>
+closig tags -> </h>
+self closing tag -> </> it is also known as void elements
+---------------------------------
+IDE - integrated Development Environment - text / code editor
+
+<html>
+<head>
+<title></title> -to give title to a web page
+</head>
+<body>
+comments
+</body>
+</html>
+
+html layout structure= basic structure + symmatic tags
+
+<!--comment--> = to increase readibility
+
+sementic tag - it optimise the loading time
+- placed insde the body tag
+- not mandatory
+
+1) <header>
+2) <aside>
+3) <main>
+4) <footer>
+ 
+ latest version - Html5
+ -----------------------
+ html5 updates
+------------------
+media updation 
+video tag - to embeded donloaded vodeo
+figure tags - to place images
+            -additionally provide captiond
+            - provides captions
+locations - iframes
+place holder            
+
+
+ tags----
+ 1) heading tags - <h1> --- <h6>
+ 2) Paragraph tag - <p></p>
+ 3) links => <a> - href - url to navigate
+ 4) image => <img>
+ 5) button => <button>
+ 6) Hr tag is to create horizontal lies
+ 7) br tag is to break a line
+ 8) iframe nest - nest the bebsite - inline element
+ 9) TABLE TAG - TO CREATE TABLES
+    -tr = row
+    -th = to give text heading
+    -td = body content, fat in the table
+10) ordered list (ol)
+    - li (list items)
+     unordered list( ul)
+    (type) attribute is used to define, which listing is to done
+
+11) <form> - to create forms
+    -label= labeling to each input box
+    -input= use to create input box
+    text area
+    select and option tag
+    -type
+    -password
+    -email
+    -type
+    -radio 
+    -file
+ 
+ 12) <Div> - to create division in webpage
+
+ 13) <span> - to seperate style a content within an html element
+14) <div> - to create divisions inweb pages
+
+ attributes - gives more information to a given tag
+ eg hef , target
+
+ block level elements -print in new line h , p , a
+ in line elements - print in same line img , button
+-------------------------------------------------------
+
+
+        CSS(CASCADING STYLE SHEET)
+    To provide styling to the contents
+
+    different ways of using CSS
+    1) Inline css
+    -style - attribute used to provide style syntax
+    -style = "property:value"
+
+    2) internal css 
+    syntax
+
+    <style>
+    tagname{
+        property:value,
+
+    }
+    </style> style tag should be place inside the head tag
+
+    3) externl css
+
+    link - we use link tag to connect external css file with html file
+    external file - filename.css
+
+    best approach external css
+    - coplexity-readibility
+    - reuseability
+    - reduce time delay in rendering
+    - priority order => inline> internal> external>
+
+    units
+    -----
+    px
+    percentage
+ 
+    CSS SELECTORS
+    -------------
+    -Tag name = selectors 
+    -id selectors = to style uniquely
+    -class selectors = to select in a group
+    -universal selector(*) - to syle a entire html document
+    -decentent selector = parent child{}
+
+    CSS box model
+    -------------
+    -border = imaginary line around the content(not visile)
+    styles
+        - solid
+        - dotted
+        - dashed
+        - double
+        - ridge
+        - insect
+        -outset
+        -none
+    -margin = space between border ad outer space
+    -padding = space between border and content
+        padding- effect all side
+        padding-top, padding-bottom, padding, left, padding-right
+        if all sides have different value then in clock wise to direction
+        if top bottom same value & right and left same value then , first value apply in top and bottom second in right and left
+
+-border radius - to give curves to the edges
+- display : flex - to place all child tag in inline level 
+-cdn - content delivart network
+-psudo class = used to define an special state of an element
+- hover - linkil thodumbol color marille ath
+- visited - visit cheitha link vere color
+- active - isit cheyyathaa link vere color
+
+CSS grid System
+---------------
+display - (grid system will divided it into rows and column)
+grid templete column- its specifies number and size of columns inside that perticular grid
+grid templete row- its specifies number and size of rows inside that perticular grid 
+column gap - specifies gap between the columns
+row gap - gap between the rows
+gap - colum row
+
+@keyframes: animation
+
+media quary
+-----------
+used to create responside website
